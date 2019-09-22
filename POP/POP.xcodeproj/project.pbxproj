@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281A721E2311927E00949637 /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 281A71DB2311927C00949637 /* ShareView.m */; };
+		281A72332311927E00949637 /* ShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 281A72012311927C00949637 /* ShareView.xib */; };
+		281A72342311927E00949637 /* TYAlertController+BlurEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 281A72052311927C00949637 /* TYAlertController+BlurEffects.m */; };
+		281A72352311927E00949637 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 281A72062311927C00949637 /* UIImage+ImageEffects.m */; };
+		281A72362311927E00949637 /* TYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 281A72092311927E00949637 /* TYAlertView.m */; };
+		281A72372311927E00949637 /* UIView+TYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 281A720D2311927E00949637 /* UIView+TYAlertView.m */; };
+		281A72382311927E00949637 /* TYAlertScaleFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 281A720E2311927E00949637 /* TYAlertScaleFadeAnimation.m */; };
+		281A72392311927E00949637 /* TYAlertFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 281A72102311927E00949637 /* TYAlertFadeAnimation.m */; };
+		281A723A2311927E00949637 /* TYAlertController+TransitionAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 281A72112311927E00949637 /* TYAlertController+TransitionAnimate.m */; };
+		281A723B2311927E00949637 /* UIView+TYAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 281A72132311927E00949637 /* UIView+TYAutoLayout.m */; };
+		281A723C2311927E00949637 /* TYAlertDropDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 281A72142311927E00949637 /* TYAlertDropDownAnimation.m */; };
+		281A723D2311927E00949637 /* TYShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 281A72172311927E00949637 /* TYShowAlertView.m */; };
+		281A723E2311927E00949637 /* TYBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 281A72182311927E00949637 /* TYBaseAnimation.m */; };
+		281A723F2311927E00949637 /* TYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281A721A2311927E00949637 /* TYAlertController.m */; };
+		281A72452313E28E00949637 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 281A72432313E28E00949637 /* MBProgressHUD.m */; };
+		281A72482314056500949637 /* PlayList.m in Sources */ = {isa = PBXBuildFile; fileRef = 281A72472314056500949637 /* PlayList.m */; };
+		281A72552315D76900949637 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 281A724A2315D76800949637 /* Lato-Italic.ttf */; };
+		281A72562315D76900949637 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 281A724B2315D76800949637 /* Lato-LightItalic.ttf */; };
+		281A72572315D76900949637 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 281A724C2315D76800949637 /* Lato-Bold.ttf */; };
+		281A72582315D76900949637 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 281A724D2315D76800949637 /* Lato-Black.ttf */; };
+		281A72592315D76900949637 /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 281A724E2315D76800949637 /* Lato-HairlineItalic.ttf */; };
+		281A725A2315D76900949637 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 281A724F2315D76800949637 /* Lato-Regular.ttf */; };
+		281A725B2315D76900949637 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 281A72502315D76800949637 /* Lato-Hairline.ttf */; };
+		281A725C2315D76900949637 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 281A72512315D76800949637 /* Lato-BlackItalic.ttf */; };
+		281A725D2315D76900949637 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 281A72522315D76800949637 /* OFL.txt */; };
+		281A725E2315D76900949637 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 281A72532315D76800949637 /* Lato-BoldItalic.ttf */; };
+		281A725F2315D76900949637 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 281A72542315D76800949637 /* Lato-Light.ttf */; };
+		281A726A2317E9E800949637 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281A72692317E9E800949637 /* MediaPlayer.framework */; };
+		283C0427230859E500E10AFE /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283C0426230859E500E10AFE /* CoreImage.framework */; };
+		2847EBAC2320583D00A49E57 /* NapsterKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2847EBAA2320583D00A49E57 /* NapsterKit.bundle */; };
+		2847EBAD2320585400A49E57 /* NapsterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2847EBA92320583D00A49E57 /* NapsterKit.framework */; };
+		2847EBAE2320585400A49E57 /* NapsterKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2847EBA92320583D00A49E57 /* NapsterKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		287B4800230D162300A9100C /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 287B47FF230D162300A9100C /* iCarousel.m */; };
+		287B4802230D1E6D00A9100C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287B4801230D1E6D00A9100C /* Foundation.framework */; };
+		287B4852230E978B00A9100C /* YBRectConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 287B4851230E978B00A9100C /* YBRectConst.m */; };
+		28D3635D2319B08B006B18D5 /* Add2PlaylistView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28D3635C2319B08B006B18D5 /* Add2PlaylistView.xib */; };
+		28D363602319B82B006B18D5 /* Add2PlaylistView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D3635F2319B82B006B18D5 /* Add2PlaylistView.m */; };
+		28D363622319BE96006B18D5 /* CreatePlaylistView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28D363612319BE96006B18D5 /* CreatePlaylistView.xib */; };
+		28D363652319D328006B18D5 /* CreatePlaylistView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D363642319D328006B18D5 /* CreatePlaylistView.m */; };
+		28D36368231A1B42006B18D5 /* QueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D36367231A1B42006B18D5 /* QueueViewController.m */; };
+		28D3636B231A1DE7006B18D5 /* QueueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D3636A231A1DE7006B18D5 /* QueueCell.m */; };
+		28D36370231C1905006B18D5 /* PlaylistView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D3636F231C1905006B18D5 /* PlaylistView.m */; };
+		28D36374231C1F63006B18D5 /* PlaylistCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D36372231C1F63006B18D5 /* PlaylistCell.m */; };
+		28D36375231C1F63006B18D5 /* PlaylistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28D36373231C1F63006B18D5 /* PlaylistCell.xib */; };
+		28D36378231C39F8006B18D5 /* CustomIOSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D36376231C39F8006B18D5 /* CustomIOSAlertView.m */; };
+		28D3637B231D82D8006B18D5 /* POPPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D3637A231D82D8006B18D5 /* POPPlayer.m */; };
+		28E90E0023044EA20061DEDD /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90DFF23044EA20061DEDD /* UIView+Extension.m */; };
+		28E90E10230464220061DEDD /* UIColor+NKSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90E05230464220061DEDD /* UIColor+NKSExtensions.m */; };
+		28E90E11230464220061DEDD /* NKSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90E06230464220061DEDD /* NKSAppDelegate.m */; };
+		28E90E12230464220061DEDD /* NKSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90E07230464220061DEDD /* NKSAlertView.m */; };
+		28E90E13230464220061DEDD /* NKSLoadingOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90E0A230464220061DEDD /* NKSLoadingOverlay.m */; };
+		28E90E14230464220061DEDD /* NKSNetworkActivityIndicatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90E0B230464220061DEDD /* NKSNetworkActivityIndicatorController.m */; };
+		28E90E15230464220061DEDD /* NKSTrack+Favorites.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90E0C230464220061DEDD /* NKSTrack+Favorites.m */; };
+		28E90E16230464220061DEDD /* NSDictionary+NKSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90E0F230464220061DEDD /* NSDictionary+NKSExtensions.m */; };
+		28E90E33230464970061DEDD /* NKSequencingContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90E1A230464970061DEDD /* NKSequencingContext.m */; };
+		28E90E34230464970061DEDD /* NKNaturalSequencing.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90E1D230464970061DEDD /* NKNaturalSequencing.m */; };
+		28E90E35230464970061DEDD /* NKShuffledSequencing.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90E1F230464970061DEDD /* NKShuffledSequencing.m */; };
+		28E90E36230464970061DEDD /* NKSequenceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90E23230464970061DEDD /* NKSequenceItem.m */; };
+		28E90E37230464970061DEDD /* NKTrackListPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90E26230464970061DEDD /* NKTrackListPlayer.m */; };
+		28E90E38230464970061DEDD /* NSArray+NKExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90E27230464970061DEDD /* NSArray+NKExtensions.m */; };
+		28E90E39230464970061DEDD /* NKPlaylistDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90E29230464970061DEDD /* NKPlaylistDetail.m */; };
+		28E90E3A230464970061DEDD /* NKPlaylistStub.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90E30230464970061DEDD /* NKPlaylistStub.m */; };
+		28E90E3B230464970061DEDD /* NKNapster+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90E31230464970061DEDD /* NKNapster+Extensions.m */; };
+		28E90E3E23046AD90061DEDD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E90E3C23046AD90061DEDD /* QuartzCore.framework */; };
+		28E90E3F23046AD90061DEDD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E90E3D23046AD90061DEDD /* Security.framework */; };
+		28E90E4023046B0D0061DEDD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EF73FD2304422D00733494 /* AVFoundation.framework */; };
+		28E90E4323048A8E0061DEDD /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90E4223048A8E0061DEDD /* PlayViewController.m */; };
+		28E90E462304FE720061DEDD /* MusicHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E90E452304FE720061DEDD /* MusicHomeViewController.m */; };
+		28EF73DB2304410500733494 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EF73DA2304410500733494 /* AppDelegate.m */; };
+		28EF73DE2304410500733494 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EF73DD2304410500733494 /* SceneDelegate.m */; };
+		28EF73E12304410500733494 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EF73E02304410500733494 /* ViewController.m */; };
+		28EF73E42304410500733494 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28EF73E22304410500733494 /* Main.storyboard */; };
+		28EF73E72304410500733494 /* POP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28EF73E52304410500733494 /* POP.xcdatamodeld */; };
+		28EF73E92304410900733494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EF73E82304410900733494 /* Assets.xcassets */; };
+		28EF73EC2304410900733494 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28EF73EA2304410900733494 /* LaunchScreen.storyboard */; };
+		28EF73EF2304410900733494 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EF73EE2304410900733494 /* main.m */; };
+		28EF73FF2304422D00733494 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EF73FB2304422D00733494 /* SystemConfiguration.framework */; };
+		28EF74002304422D00733494 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EF73FC2304422D00733494 /* AudioToolbox.framework */; };
+		28EF74022304422D00733494 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EF73FE2304422D00733494 /* CoreGraphics.framework */; };
+		28EF74042304423900733494 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EF74032304423900733494 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2847EBAF2320585400A49E57 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2847EBAE2320585400A49E57 /* NapsterKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		281A71DB2311927C00949637 /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
+		281A71E82311927C00949637 /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
+		281A72012311927C00949637 /* ShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareView.xib; sourceTree = "<group>"; };
+		281A72042311927C00949637 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		281A72052311927C00949637 /* TYAlertController+BlurEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TYAlertController+BlurEffects.m"; sourceTree = "<group>"; };
+		281A72062311927C00949637 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		281A72072311927C00949637 /* TYAlertController+BlurEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TYAlertController+BlurEffects.h"; sourceTree = "<group>"; };
+		281A72092311927E00949637 /* TYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertView.m; sourceTree = "<group>"; };
+		281A720A2311927E00949637 /* TYAlertDropDownAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertDropDownAnimation.h; sourceTree = "<group>"; };
+		281A720B2311927E00949637 /* UIView+TYAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYAutoLayout.h"; sourceTree = "<group>"; };
+		281A720C2311927E00949637 /* TYShowAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYShowAlertView.h; sourceTree = "<group>"; };
+		281A720D2311927E00949637 /* UIView+TYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYAlertView.m"; sourceTree = "<group>"; };
+		281A720E2311927E00949637 /* TYAlertScaleFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertScaleFadeAnimation.m; sourceTree = "<group>"; };
+		281A720F2311927E00949637 /* TYBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBaseAnimation.h; sourceTree = "<group>"; };
+		281A72102311927E00949637 /* TYAlertFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertFadeAnimation.m; sourceTree = "<group>"; };
+		281A72112311927E00949637 /* TYAlertController+TransitionAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TYAlertController+TransitionAnimate.m"; sourceTree = "<group>"; };
+		281A72122311927E00949637 /* TYAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertController.h; sourceTree = "<group>"; };
+		281A72132311927E00949637 /* UIView+TYAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYAutoLayout.m"; sourceTree = "<group>"; };
+		281A72142311927E00949637 /* TYAlertDropDownAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertDropDownAnimation.m; sourceTree = "<group>"; };
+		281A72152311927E00949637 /* TYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertView.h; sourceTree = "<group>"; };
+		281A72162311927E00949637 /* UIView+TYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYAlertView.h"; sourceTree = "<group>"; };
+		281A72172311927E00949637 /* TYShowAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYShowAlertView.m; sourceTree = "<group>"; };
+		281A72182311927E00949637 /* TYBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYBaseAnimation.m; sourceTree = "<group>"; };
+		281A72192311927E00949637 /* TYAlertScaleFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertScaleFadeAnimation.h; sourceTree = "<group>"; };
+		281A721A2311927E00949637 /* TYAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertController.m; sourceTree = "<group>"; };
+		281A721B2311927E00949637 /* TYAlertFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertFadeAnimation.h; sourceTree = "<group>"; };
+		281A72432313E28E00949637 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		281A72442313E28E00949637 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		281A72462314056500949637 /* PlayList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayList.h; sourceTree = "<group>"; };
+		281A72472314056500949637 /* PlayList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayList.m; sourceTree = "<group>"; };
+		281A724A2315D76800949637 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		281A724B2315D76800949637 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		281A724C2315D76800949637 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		281A724D2315D76800949637 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		281A724E2315D76800949637 /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		281A724F2315D76800949637 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		281A72502315D76800949637 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		281A72512315D76800949637 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		281A72522315D76800949637 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		281A72532315D76800949637 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		281A72542315D76800949637 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		281A72692317E9E800949637 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		283C0426230859E500E10AFE /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		2847EBA92320583D00A49E57 /* NapsterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NapsterKit.framework; sourceTree = "<group>"; };
+		2847EBAA2320583D00A49E57 /* NapsterKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NapsterKit.bundle; sourceTree = "<group>"; };
+		287B47FE230D162300A9100C /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		287B47FF230D162300A9100C /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		287B4801230D1E6D00A9100C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		287B4850230E978B00A9100C /* YBRectConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBRectConst.h; sourceTree = "<group>"; };
+		287B4851230E978B00A9100C /* YBRectConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBRectConst.m; sourceTree = "<group>"; };
+		28D3635C2319B08B006B18D5 /* Add2PlaylistView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Add2PlaylistView.xib; sourceTree = "<group>"; };
+		28D3635E2319B82B006B18D5 /* Add2PlaylistView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Add2PlaylistView.h; sourceTree = "<group>"; };
+		28D3635F2319B82B006B18D5 /* Add2PlaylistView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Add2PlaylistView.m; sourceTree = "<group>"; };
+		28D363612319BE96006B18D5 /* CreatePlaylistView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreatePlaylistView.xib; sourceTree = "<group>"; };
+		28D363632319D328006B18D5 /* CreatePlaylistView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreatePlaylistView.h; sourceTree = "<group>"; };
+		28D363642319D328006B18D5 /* CreatePlaylistView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreatePlaylistView.m; sourceTree = "<group>"; };
+		28D36366231A1B42006B18D5 /* QueueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueViewController.h; sourceTree = "<group>"; };
+		28D36367231A1B42006B18D5 /* QueueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueViewController.m; sourceTree = "<group>"; };
+		28D36369231A1DE7006B18D5 /* QueueCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueCell.h; sourceTree = "<group>"; };
+		28D3636A231A1DE7006B18D5 /* QueueCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueCell.m; sourceTree = "<group>"; };
+		28D3636E231C1905006B18D5 /* PlaylistView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaylistView.h; sourceTree = "<group>"; };
+		28D3636F231C1905006B18D5 /* PlaylistView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaylistView.m; sourceTree = "<group>"; };
+		28D36371231C1F63006B18D5 /* PlaylistCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaylistCell.h; sourceTree = "<group>"; };
+		28D36372231C1F63006B18D5 /* PlaylistCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaylistCell.m; sourceTree = "<group>"; };
+		28D36373231C1F63006B18D5 /* PlaylistCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistCell.xib; sourceTree = "<group>"; };
+		28D36376231C39F8006B18D5 /* CustomIOSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIOSAlertView.m; sourceTree = "<group>"; };
+		28D36377231C39F8006B18D5 /* CustomIOSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIOSAlertView.h; sourceTree = "<group>"; };
+		28D36379231D82D7006B18D5 /* POPPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPPlayer.h; sourceTree = "<group>"; };
+		28D3637A231D82D8006B18D5 /* POPPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POPPlayer.m; sourceTree = "<group>"; };
+		28E90DFE23044E480061DEDD /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		28E90DFF23044EA20061DEDD /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		28E90E01230464210061DEDD /* UIColor+NKSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NKSExtensions.h"; sourceTree = "<group>"; };
+		28E90E02230464220061DEDD /* NSDictionary+NKSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NKSExtensions.h"; sourceTree = "<group>"; };
+		28E90E03230464220061DEDD /* NKSLoadingOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKSLoadingOverlay.h; sourceTree = "<group>"; };
+		28E90E04230464220061DEDD /* NKSCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKSCommon.h; sourceTree = "<group>"; };
+		28E90E05230464220061DEDD /* UIColor+NKSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NKSExtensions.m"; sourceTree = "<group>"; };
+		28E90E06230464220061DEDD /* NKSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKSAppDelegate.m; sourceTree = "<group>"; };
+		28E90E07230464220061DEDD /* NKSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKSAlertView.m; sourceTree = "<group>"; };
+		28E90E08230464220061DEDD /* NKSTrack+Favorites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NKSTrack+Favorites.h"; sourceTree = "<group>"; };
+		28E90E09230464220061DEDD /* NKSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKSAlertView.h; sourceTree = "<group>"; };
+		28E90E0A230464220061DEDD /* NKSLoadingOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKSLoadingOverlay.m; sourceTree = "<group>"; };
+		28E90E0B230464220061DEDD /* NKSNetworkActivityIndicatorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKSNetworkActivityIndicatorController.m; sourceTree = "<group>"; };
+		28E90E0C230464220061DEDD /* NKSTrack+Favorites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NKSTrack+Favorites.m"; sourceTree = "<group>"; };
+		28E90E0D230464220061DEDD /* NKSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKSAppDelegate.h; sourceTree = "<group>"; };
+		28E90E0E230464220061DEDD /* NKSNetworkActivityIndicatorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKSNetworkActivityIndicatorController.h; sourceTree = "<group>"; };
+		28E90E0F230464220061DEDD /* NSDictionary+NKSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NKSExtensions.m"; sourceTree = "<group>"; };
+		28E90E1A230464970061DEDD /* NKSequencingContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKSequencingContext.m; sourceTree = "<group>"; };
+		28E90E1B230464970061DEDD /* NKSequenceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKSequenceItem.h; sourceTree = "<group>"; };
+		28E90E1D230464970061DEDD /* NKNaturalSequencing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKNaturalSequencing.m; sourceTree = "<group>"; };
+		28E90E1E230464970061DEDD /* NKShuffledSequencing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKShuffledSequencing.h; sourceTree = "<group>"; };
+		28E90E1F230464970061DEDD /* NKShuffledSequencing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKShuffledSequencing.m; sourceTree = "<group>"; };
+		28E90E20230464970061DEDD /* NKNaturalSequencing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKNaturalSequencing.h; sourceTree = "<group>"; };
+		28E90E21230464970061DEDD /* NKSequencingAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKSequencingAlgorithm.h; sourceTree = "<group>"; };
+		28E90E22230464970061DEDD /* NKSequencingContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKSequencingContext.h; sourceTree = "<group>"; };
+		28E90E23230464970061DEDD /* NKSequenceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKSequenceItem.m; sourceTree = "<group>"; };
+		28E90E24230464970061DEDD /* NKTrackListPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKTrackListPlayer.h; sourceTree = "<group>"; };
+		28E90E25230464970061DEDD /* NKTrackListPlayer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKTrackListPlayer_Private.h; sourceTree = "<group>"; };
+		28E90E26230464970061DEDD /* NKTrackListPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKTrackListPlayer.m; sourceTree = "<group>"; };
+		28E90E27230464970061DEDD /* NSArray+NKExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NKExtensions.m"; sourceTree = "<group>"; };
+		28E90E29230464970061DEDD /* NKPlaylistDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKPlaylistDetail.m; sourceTree = "<group>"; };
+		28E90E2A230464970061DEDD /* NKAPI+Parsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NKAPI+Parsing.h"; sourceTree = "<group>"; };
+		28E90E2B230464970061DEDD /* NKNapster+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NKNapster+Extensions.h"; sourceTree = "<group>"; };
+		28E90E2C230464970061DEDD /* NKPlaylistStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKPlaylistStub.h; sourceTree = "<group>"; };
+		28E90E2D230464970061DEDD /* NKPlaylistDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKPlaylistDetail.h; sourceTree = "<group>"; };
+		28E90E2E230464970061DEDD /* NKPlaylistDetail_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKPlaylistDetail_Private.h; sourceTree = "<group>"; };
+		28E90E2F230464970061DEDD /* NKPlaylistStub_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKPlaylistStub_Private.h; sourceTree = "<group>"; };
+		28E90E30230464970061DEDD /* NKPlaylistStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKPlaylistStub.m; sourceTree = "<group>"; };
+		28E90E31230464970061DEDD /* NKNapster+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NKNapster+Extensions.m"; sourceTree = "<group>"; };
+		28E90E32230464970061DEDD /* NSArray+NKExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NKExtensions.h"; sourceTree = "<group>"; };
+		28E90E3C23046AD90061DEDD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		28E90E3D23046AD90061DEDD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		28E90E4123048A8E0061DEDD /* PlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		28E90E4223048A8E0061DEDD /* PlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		28E90E442304FE720061DEDD /* MusicHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicHomeViewController.h; sourceTree = "<group>"; };
+		28E90E452304FE720061DEDD /* MusicHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicHomeViewController.m; sourceTree = "<group>"; };
+		28EF73D62304410500733494 /* POP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EF73D92304410500733494 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28EF73DA2304410500733494 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28EF73DC2304410500733494 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		28EF73DD2304410500733494 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		28EF73DF2304410500733494 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28EF73E02304410500733494 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28EF73E32304410500733494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28EF73E62304410500733494 /* FirstNapsterMusicApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstNapsterMusicApp.xcdatamodel; sourceTree = "<group>"; };
+		28EF73E82304410900733494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28EF73EB2304410900733494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28EF73ED2304410900733494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28EF73EE2304410900733494 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28EF73FB2304422D00733494 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		28EF73FC2304422D00733494 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		28EF73FD2304422D00733494 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		28EF73FE2304422D00733494 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28EF74032304423900733494 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28EF73D32304410500733494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E90E4023046B0D0061DEDD /* AVFoundation.framework in Frameworks */,
+				28EF74042304423900733494 /* CoreData.framework in Frameworks */,
+				283C0427230859E500E10AFE /* CoreImage.framework in Frameworks */,
+				28E90E3E23046AD90061DEDD /* QuartzCore.framework in Frameworks */,
+				28EF73FF2304422D00733494 /* SystemConfiguration.framework in Frameworks */,
+				287B4802230D1E6D00A9100C /* Foundation.framework in Frameworks */,
+				281A726A2317E9E800949637 /* MediaPlayer.framework in Frameworks */,
+				28EF74022304422D00733494 /* CoreGraphics.framework in Frameworks */,
+				2847EBAD2320585400A49E57 /* NapsterKit.framework in Frameworks */,
+				28E90E3F23046AD90061DEDD /* Security.framework in Frameworks */,
+				28EF74002304422D00733494 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281A72032311927C00949637 /* Blur Effects */ = {
+			isa = PBXGroup;
+			children = (
+				281A72042311927C00949637 /* UIImage+ImageEffects.h */,
+				281A72052311927C00949637 /* TYAlertController+BlurEffects.m */,
+				281A72062311927C00949637 /* UIImage+ImageEffects.m */,
+				281A72072311927C00949637 /* TYAlertController+BlurEffects.h */,
+			);
+			path = "Blur Effects";
+			sourceTree = "<group>";
+		};
+		281A72082311927E00949637 /* TYAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				281A72092311927E00949637 /* TYAlertView.m */,
+				281A720A2311927E00949637 /* TYAlertDropDownAnimation.h */,
+				281A720B2311927E00949637 /* UIView+TYAutoLayout.h */,
+				281A720C2311927E00949637 /* TYShowAlertView.h */,
+				281A720D2311927E00949637 /* UIView+TYAlertView.m */,
+				281A720E2311927E00949637 /* TYAlertScaleFadeAnimation.m */,
+				281A720F2311927E00949637 /* TYBaseAnimation.h */,
+				281A72102311927E00949637 /* TYAlertFadeAnimation.m */,
+				281A72112311927E00949637 /* TYAlertController+TransitionAnimate.m */,
+				281A72122311927E00949637 /* TYAlertController.h */,
+				281A72132311927E00949637 /* UIView+TYAutoLayout.m */,
+				281A72142311927E00949637 /* TYAlertDropDownAnimation.m */,
+				281A72152311927E00949637 /* TYAlertView.h */,
+				281A72162311927E00949637 /* UIView+TYAlertView.h */,
+				281A72172311927E00949637 /* TYShowAlertView.m */,
+				281A72182311927E00949637 /* TYBaseAnimation.m */,
+				281A72192311927E00949637 /* TYAlertScaleFadeAnimation.h */,
+				281A721A2311927E00949637 /* TYAlertController.m */,
+				281A721B2311927E00949637 /* TYAlertFadeAnimation.h */,
+			);
+			path = TYAlertController;
+			sourceTree = "<group>";
+		};
+		281A72492315D76800949637 /* lato */ = {
+			isa = PBXGroup;
+			children = (
+				281A724A2315D76800949637 /* Lato-Italic.ttf */,
+				281A724B2315D76800949637 /* Lato-LightItalic.ttf */,
+				281A724C2315D76800949637 /* Lato-Bold.ttf */,
+				281A724D2315D76800949637 /* Lato-Black.ttf */,
+				281A724E2315D76800949637 /* Lato-HairlineItalic.ttf */,
+				281A724F2315D76800949637 /* Lato-Regular.ttf */,
+				281A72502315D76800949637 /* Lato-Hairline.ttf */,
+				281A72512315D76800949637 /* Lato-BlackItalic.ttf */,
+				281A72522315D76800949637 /* OFL.txt */,
+				281A72532315D76800949637 /* Lato-BoldItalic.ttf */,
+				281A72542315D76800949637 /* Lato-Light.ttf */,
+			);
+			path = lato;
+			sourceTree = "<group>";
+		};
+		2847EBA82320583D00A49E57 /* NapsterKit for iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2847EBA92320583D00A49E57 /* NapsterKit.framework */,
+				2847EBAA2320583D00A49E57 /* NapsterKit.bundle */,
+			);
+			path = "NapsterKit for iOS";
+			sourceTree = "<group>";
+		};
+		28E90DFD23044E210061DEDD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28E90E09230464220061DEDD /* NKSAlertView.h */,
+				28E90E07230464220061DEDD /* NKSAlertView.m */,
+				28E90E0D230464220061DEDD /* NKSAppDelegate.h */,
+				28E90E06230464220061DEDD /* NKSAppDelegate.m */,
+				28E90E04230464220061DEDD /* NKSCommon.h */,
+				28E90E03230464220061DEDD /* NKSLoadingOverlay.h */,
+				28E90E0A230464220061DEDD /* NKSLoadingOverlay.m */,
+				28E90E0E230464220061DEDD /* NKSNetworkActivityIndicatorController.h */,
+				28E90E0B230464220061DEDD /* NKSNetworkActivityIndicatorController.m */,
+				28E90E08230464220061DEDD /* NKSTrack+Favorites.h */,
+				28E90E0C230464220061DEDD /* NKSTrack+Favorites.m */,
+				28E90E02230464220061DEDD /* NSDictionary+NKSExtensions.h */,
+				28E90E0F230464220061DEDD /* NSDictionary+NKSExtensions.m */,
+				28E90E01230464210061DEDD /* UIColor+NKSExtensions.h */,
+				28E90E05230464220061DEDD /* UIColor+NKSExtensions.m */,
+				28E90DFE23044E480061DEDD /* UIView+Extension.h */,
+				28E90DFF23044EA20061DEDD /* UIView+Extension.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		28E90E17230464970061DEDD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				28E90E18230464970061DEDD /* ListPlayer */,
+				28E90E27230464970061DEDD /* NSArray+NKExtensions.m */,
+				28E90E28230464970061DEDD /* API */,
+				28E90E32230464970061DEDD /* NSArray+NKExtensions.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		28E90E18230464970061DEDD /* ListPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				28E90E19230464970061DEDD /* Sequencing */,
+				28E90E24230464970061DEDD /* NKTrackListPlayer.h */,
+				28E90E25230464970061DEDD /* NKTrackListPlayer_Private.h */,
+				28E90E26230464970061DEDD /* NKTrackListPlayer.m */,
+			);
+			path = ListPlayer;
+			sourceTree = "<group>";
+		};
+		28E90E19230464970061DEDD /* Sequencing */ = {
+			isa = PBXGroup;
+			children = (
+				28E90E1A230464970061DEDD /* NKSequencingContext.m */,
+				28E90E1B230464970061DEDD /* NKSequenceItem.h */,
+				28E90E1C230464970061DEDD /* Algorithms */,
+				28E90E21230464970061DEDD /* NKSequencingAlgorithm.h */,
+				28E90E22230464970061DEDD /* NKSequencingContext.h */,
+				28E90E23230464970061DEDD /* NKSequenceItem.m */,
+			);
+			path = Sequencing;
+			sourceTree = "<group>";
+		};
+		28E90E1C230464970061DEDD /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				28E90E1D230464970061DEDD /* NKNaturalSequencing.m */,
+				28E90E1E230464970061DEDD /* NKShuffledSequencing.h */,
+				28E90E1F230464970061DEDD /* NKShuffledSequencing.m */,
+				28E90E20230464970061DEDD /* NKNaturalSequencing.h */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		28E90E28230464970061DEDD /* API */ = {
+			isa = PBXGroup;
+			children = (
+				28E90E29230464970061DEDD /* NKPlaylistDetail.m */,
+				28E90E2A230464970061DEDD /* NKAPI+Parsing.h */,
+				28E90E2B230464970061DEDD /* NKNapster+Extensions.h */,
+				28E90E2C230464970061DEDD /* NKPlaylistStub.h */,
+				28E90E2D230464970061DEDD /* NKPlaylistDetail.h */,
+				28E90E2E230464970061DEDD /* NKPlaylistDetail_Private.h */,
+				28E90E2F230464970061DEDD /* NKPlaylistStub_Private.h */,
+				28E90E30230464970061DEDD /* NKPlaylistStub.m */,
+				28E90E31230464970061DEDD /* NKNapster+Extensions.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		28EF73CD2304410500733494 = {
+			isa = PBXGroup;
+			children = (
+				2847EBA82320583D00A49E57 /* NapsterKit for iOS */,
+				28E90E17230464970061DEDD /* Common */,
+				28E90DFD23044E210061DEDD /* Classes */,
+				28EF73D82304410500733494 /* POP */,
+				28EF73D72304410500733494 /* Products */,
+				28EF73FA2304422D00733494 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28EF73D72304410500733494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28EF73D62304410500733494 /* POP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28EF73D82304410500733494 /* POP */ = {
+			isa = PBXGroup;
+			children = (
+				281A72032311927C00949637 /* Blur Effects */,
+				281A72082311927E00949637 /* TYAlertController */,
+				287B4850230E978B00A9100C /* YBRectConst.h */,
+				281A72462314056500949637 /* PlayList.h */,
+				281A72472314056500949637 /* PlayList.m */,
+				28D36377231C39F8006B18D5 /* CustomIOSAlertView.h */,
+				28D36376231C39F8006B18D5 /* CustomIOSAlertView.m */,
+				281A72442313E28E00949637 /* MBProgressHUD.h */,
+				281A72432313E28E00949637 /* MBProgressHUD.m */,
+				281A72012311927C00949637 /* ShareView.xib */,
+				281A71DB2311927C00949637 /* ShareView.m */,
+				281A71E82311927C00949637 /* ShareView.h */,
+				28D36373231C1F63006B18D5 /* PlaylistCell.xib */,
+				28D36371231C1F63006B18D5 /* PlaylistCell.h */,
+				28D36372231C1F63006B18D5 /* PlaylistCell.m */,
+				28D3636E231C1905006B18D5 /* PlaylistView.h */,
+				28D3636F231C1905006B18D5 /* PlaylistView.m */,
+				28D363612319BE96006B18D5 /* CreatePlaylistView.xib */,
+				28D363632319D328006B18D5 /* CreatePlaylistView.h */,
+				28D363642319D328006B18D5 /* CreatePlaylistView.m */,
+				28D3635C2319B08B006B18D5 /* Add2PlaylistView.xib */,
+				28D3635E2319B82B006B18D5 /* Add2PlaylistView.h */,
+				28D3635F2319B82B006B18D5 /* Add2PlaylistView.m */,
+				287B4851230E978B00A9100C /* YBRectConst.m */,
+				287B47FE230D162300A9100C /* iCarousel.h */,
+				287B47FF230D162300A9100C /* iCarousel.m */,
+				28EF73D92304410500733494 /* AppDelegate.h */,
+				28EF73DA2304410500733494 /* AppDelegate.m */,
+				28EF73DC2304410500733494 /* SceneDelegate.h */,
+				28EF73DD2304410500733494 /* SceneDelegate.m */,
+				28EF73DF2304410500733494 /* ViewController.h */,
+				28EF73E02304410500733494 /* ViewController.m */,
+				28EF73E22304410500733494 /* Main.storyboard */,
+				28D36369231A1DE7006B18D5 /* QueueCell.h */,
+				28D3636A231A1DE7006B18D5 /* QueueCell.m */,
+				28E90E442304FE720061DEDD /* MusicHomeViewController.h */,
+				28E90E452304FE720061DEDD /* MusicHomeViewController.m */,
+				28D36379231D82D7006B18D5 /* POPPlayer.h */,
+				28D3637A231D82D8006B18D5 /* POPPlayer.m */,
+				28E90E4123048A8E0061DEDD /* PlayViewController.h */,
+				28E90E4223048A8E0061DEDD /* PlayViewController.m */,
+				28D36366231A1B42006B18D5 /* QueueViewController.h */,
+				28D36367231A1B42006B18D5 /* QueueViewController.m */,
+				28EF73E82304410900733494 /* Assets.xcassets */,
+				281A72492315D76800949637 /* lato */,
+				28EF73EA2304410900733494 /* LaunchScreen.storyboard */,
+				28EF73ED2304410900733494 /* Info.plist */,
+				28EF73EE2304410900733494 /* main.m */,
+				28EF73E52304410500733494 /* POP.xcdatamodeld */,
+			);
+			path = POP;
+			sourceTree = "<group>";
+		};
+		28EF73FA2304422D00733494 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				281A72692317E9E800949637 /* MediaPlayer.framework */,
+				287B4801230D1E6D00A9100C /* Foundation.framework */,
+				283C0426230859E500E10AFE /* CoreImage.framework */,
+				28E90E3C23046AD90061DEDD /* QuartzCore.framework */,
+				28E90E3D23046AD90061DEDD /* Security.framework */,
+				28EF74032304423900733494 /* CoreData.framework */,
+				28EF73FC2304422D00733494 /* AudioToolbox.framework */,
+				28EF73FD2304422D00733494 /* AVFoundation.framework */,
+				28EF73FE2304422D00733494 /* CoreGraphics.framework */,
+				28EF73FB2304422D00733494 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28EF73D52304410500733494 /* POP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EF73F22304410900733494 /* Build configuration list for PBXNativeTarget "POP" */;
+			buildPhases = (
+				28EF73D22304410500733494 /* Sources */,
+				28EF73D32304410500733494 /* Frameworks */,
+				28EF73D42304410500733494 /* Resources */,
+				2847EBAF2320585400A49E57 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POP;
+			productName = FirstNapsterMusicApp;
+			productReference = 28EF73D62304410500733494 /* POP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28EF73CE2304410500733494 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Logikosoft Technologies LLC";
+				TargetAttributes = {
+					28EF73D52304410500733494 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 28EF73D12304410500733494 /* Build configuration list for PBXProject "POP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28EF73CD2304410500733494;
+			productRefGroup = 28EF73D72304410500733494 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28EF73D52304410500733494 /* POP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28EF73D42304410500733494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281A725D2315D76900949637 /* OFL.txt in Resources */,
+				28EF73EC2304410900733494 /* LaunchScreen.storyboard in Resources */,
+				281A72582315D76900949637 /* Lato-Black.ttf in Resources */,
+				28D36375231C1F63006B18D5 /* PlaylistCell.xib in Resources */,
+				281A725B2315D76900949637 /* Lato-Hairline.ttf in Resources */,
+				281A72592315D76900949637 /* Lato-HairlineItalic.ttf in Resources */,
+				281A72332311927E00949637 /* ShareView.xib in Resources */,
+				281A725C2315D76900949637 /* Lato-BlackItalic.ttf in Resources */,
+				2847EBAC2320583D00A49E57 /* NapsterKit.bundle in Resources */,
+				28EF73E92304410900733494 /* Assets.xcassets in Resources */,
+				281A725E2315D76900949637 /* Lato-BoldItalic.ttf in Resources */,
+				281A72552315D76900949637 /* Lato-Italic.ttf in Resources */,
+				28EF73E42304410500733494 /* Main.storyboard in Resources */,
+				281A72562315D76900949637 /* Lato-LightItalic.ttf in Resources */,
+				281A72572315D76900949637 /* Lato-Bold.ttf in Resources */,
+				28D363622319BE96006B18D5 /* CreatePlaylistView.xib in Resources */,
+				28D3635D2319B08B006B18D5 /* Add2PlaylistView.xib in Resources */,
+				281A725A2315D76900949637 /* Lato-Regular.ttf in Resources */,
+				281A725F2315D76900949637 /* Lato-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28EF73D22304410500733494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D36370231C1905006B18D5 /* PlaylistView.m in Sources */,
+				28E90E0023044EA20061DEDD /* UIView+Extension.m in Sources */,
+				28D36374231C1F63006B18D5 /* PlaylistCell.m in Sources */,
+				28D3637B231D82D8006B18D5 /* POPPlayer.m in Sources */,
+				281A72342311927E00949637 /* TYAlertController+BlurEffects.m in Sources */,
+				281A72392311927E00949637 /* TYAlertFadeAnimation.m in Sources */,
+				28D363602319B82B006B18D5 /* Add2PlaylistView.m in Sources */,
+				28E90E34230464970061DEDD /* NKNaturalSequencing.m in Sources */,
+				28EF73EF2304410900733494 /* main.m in Sources */,
+				28D36378231C39F8006B18D5 /* CustomIOSAlertView.m in Sources */,
+				281A72382311927E00949637 /* TYAlertScaleFadeAnimation.m in Sources */,
+				28E90E15230464220061DEDD /* NKSTrack+Favorites.m in Sources */,
+				281A72452313E28E00949637 /* MBProgressHUD.m in Sources */,
+				28E90E3B230464970061DEDD /* NKNapster+Extensions.m in Sources */,
+				281A723A2311927E00949637 /* TYAlertController+TransitionAnimate.m in Sources */,
+				287B4852230E978B00A9100C /* YBRectConst.m in Sources */,
+				281A723E2311927E00949637 /* TYBaseAnimation.m in Sources */,
+				287B4800230D162300A9100C /* iCarousel.m in Sources */,
+				281A723B2311927E00949637 /* UIView+TYAutoLayout.m in Sources */,
+				28E90E12230464220061DEDD /* NKSAlertView.m in Sources */,
+				28E90E4323048A8E0061DEDD /* PlayViewController.m in Sources */,
+				28E90E10230464220061DEDD /* UIColor+NKSExtensions.m in Sources */,
+				28E90E13230464220061DEDD /* NKSLoadingOverlay.m in Sources */,
+				28E90E11230464220061DEDD /* NKSAppDelegate.m in Sources */,
+				28D36368231A1B42006B18D5 /* QueueViewController.m in Sources */,
+				281A72372311927E00949637 /* UIView+TYAlertView.m in Sources */,
+				28D3636B231A1DE7006B18D5 /* QueueCell.m in Sources */,
+				28EF73E72304410500733494 /* POP.xcdatamodeld in Sources */,
+				28E90E33230464970061DEDD /* NKSequencingContext.m in Sources */,
+				28E90E14230464220061DEDD /* NKSNetworkActivityIndicatorController.m in Sources */,
+				281A723F2311927E00949637 /* TYAlertController.m in Sources */,
+				281A72482314056500949637 /* PlayList.m in Sources */,
+				28E90E462304FE720061DEDD /* MusicHomeViewController.m in Sources */,
+				28EF73E12304410500733494 /* ViewController.m in Sources */,
+				28EF73DB2304410500733494 /* AppDelegate.m in Sources */,
+				28D363652319D328006B18D5 /* CreatePlaylistView.m in Sources */,
+				28E90E37230464970061DEDD /* NKTrackListPlayer.m in Sources */,
+				28E90E38230464970061DEDD /* NSArray+NKExtensions.m in Sources */,
+				28E90E3A230464970061DEDD /* NKPlaylistStub.m in Sources */,
+				281A723C2311927E00949637 /* TYAlertDropDownAnimation.m in Sources */,
+				28E90E36230464970061DEDD /* NKSequenceItem.m in Sources */,
+				28E90E35230464970061DEDD /* NKShuffledSequencing.m in Sources */,
+				28E90E16230464220061DEDD /* NSDictionary+NKSExtensions.m in Sources */,
+				28EF73DE2304410500733494 /* SceneDelegate.m in Sources */,
+				281A72352311927E00949637 /* UIImage+ImageEffects.m in Sources */,
+				281A721E2311927E00949637 /* ShareView.m in Sources */,
+				28E90E39230464970061DEDD /* NKPlaylistDetail.m in Sources */,
+				281A72362311927E00949637 /* TYAlertView.m in Sources */,
+				281A723D2311927E00949637 /* TYShowAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28EF73E22304410500733494 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28EF73E32304410500733494 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28EF73EA2304410900733494 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28EF73EB2304410900733494 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28EF73F02304410900733494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28EF73F12304410900733494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28EF73F32304410900733494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 664NQZJADW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NapsterKit\\ for\\ iOS",
+					"$(PROJECT_DIR)/NapsterKit\\ for\\ iOS",
+					"$(PROJECT_DIR)/NapsterKit\\ for\\ iOS",
+					"$(PROJECT_DIR)/NapsterKit\\ for\\ iOS",
+					"$(PROJECT_DIR)/NapsterKit\\ for\\ iOS",
+					"$(PROJECT_DIR)/NapsterKit\\ for\\ iOS",
+				);
+				INFOPLIST_FILE = POP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pop.POP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28EF73F42304410900733494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 664NQZJADW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NapsterKit\\ for\\ iOS",
+					"$(PROJECT_DIR)/NapsterKit\\ for\\ iOS",
+					"$(PROJECT_DIR)/NapsterKit\\ for\\ iOS",
+					"$(PROJECT_DIR)/NapsterKit\\ for\\ iOS",
+					"$(PROJECT_DIR)/NapsterKit\\ for\\ iOS",
+					"$(PROJECT_DIR)/NapsterKit\\ for\\ iOS",
+				);
+				INFOPLIST_FILE = POP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pop.POP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28EF73D12304410500733494 /* Build configuration list for PBXProject "POP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EF73F02304410900733494 /* Debug */,
+				28EF73F12304410900733494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EF73F22304410900733494 /* Build configuration list for PBXNativeTarget "POP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EF73F32304410900733494 /* Debug */,
+				28EF73F42304410900733494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28EF73E52304410500733494 /* POP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28EF73E62304410500733494 /* FirstNapsterMusicApp.xcdatamodel */,
+			);
+			currentVersion = 28EF73E62304410500733494 /* FirstNapsterMusicApp.xcdatamodel */;
+			path = POP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 28EF73CE2304410500733494 /* Project object */;
+}
